@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Montserrat";
-  src: url(.fonts/Montserrat.ttf) format('truetype');
+  src: url(fonts/Montserrat.ttf) format('truetype');
   font-weight: normal;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   margin: 0;
 }
 .container{
   background-color: rgba(163, 178, 248, 0.5);
   height: 100%;
   min-height: 100vh;
-  padding: 30px;
+  padding: 0 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,8 +40,13 @@ a.about{
   border: 1px solid white;
   padding: 6px 16px;
   border-radius: 20px;
+  background-color:rgba(163, 178, 248, 0.6) ;
 
 }
 a.about:hover{
   background-color: rgb(97, 64, 134) ;
+}
+a.click:hover {
+  color: rgb(77, 117, 237);
+
 }
